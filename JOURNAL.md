@@ -89,3 +89,53 @@
 Cours théorique (2x40 min) sur la mise en place de GitHub et les commandes essentielles pour alimenter un dépôt (init, add, commit, push, status, etc.).
 Suivi en visionnage, pas de TP associé
 Prochain cours : SEO
+
+## Jour 6
+
+-26/09/2026
+Cours SEO
+
+### Règles SEO à retenir
+
+**1. Créer du bon contenu**
+
+- 400 mots minimum par page
+- Contenu à jour, non répétitif
+- Éviter les pages d'intro avant le site
+- Éviter les liens type "cliquez ici" / "en savoir plus"
+- Privilégier le local (ville, région, quartier) — le robot favorise le contenu local ; utiliser `.fr` si le site cible uniquement la France
+
+**2. HTML "SEO friendly"**
+
+- Voir projet `html-helium`
+- Open Graph : https://ogp.me/
+- Test Open Graph : https://cards-dev.x.com
+
+**3. Site rapide (performant)**
+
+- Le robot teste le temps de chargement
+- Le JS doit être lu en dernier
+- Faire apparaître une couleur de fond le plus vite possible
+- Privilégier les images depuis le CSS plutôt que la balise `<img>`
+
+**Outils**
+
+- Test SEO : plugin Lighthouse
+- Doc officielle : https://developers.google.com/search/docs?hl=fr
+
+### Exercice pratique — `html-helium`
+
+Mise en pratique des principes SEO/perf sur une page (nav, header responsive, section infos/investisseurs), avec media queries pour mobile et tablette
+
+## Jour 7
+
+-27/09/2026
+Cours SASS
+
+Introduction à Sass, préprocesseur CSS pour un code plus structuré et maintenable.
+
+- **Organisation** : découpage en plusieurs fichiers `.scss` (variables, mixins, composants...) assemblés via `@import`, pour éviter un fichier CSS monolithique
+- **Variables** : centralisation des valeurs réutilisées (couleurs, espacements) pour une maintenance simplifiée
+- **Mixins** : blocs de styles réutilisables et paramétrables (`@mixin` / `@include`) pour factoriser les patterns récurrents
+
+Approche plus modulaire, pensée en composants réutilisables plutôt qu'en styles isolés.

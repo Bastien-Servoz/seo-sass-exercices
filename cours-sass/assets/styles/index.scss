@@ -1,0 +1,15 @@
+// index.scss rassemble tous les fichiers SASS
+
+// settings.scss doit être lu en premier pour connaître les variables 
+
+@import "./settings";
+@import "./layout/navbar";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/section";
+ 
+
+
+
+
+
